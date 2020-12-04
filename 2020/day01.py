@@ -36,7 +36,7 @@ def product_of_combination(expense, n):
 
 def main():
     """Solution to both parts of AoC Day 1 problem."""
-    expense = get_input('day01.txt')
+    expense = get_input('input/day01.txt')
     product_of_combination(expense, 2)
     product_of_combination(expense, 3)
 

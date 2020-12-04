@@ -62,7 +62,7 @@ def count_trees(content, down_step=1, right_step=3):
 def main():
     """Solution to both parts of AoC Day 2 problem."""
 
-    content = get_input('day03.txt')
+    content = get_input('input/day03.txt')
     print('First answer of the puzzle {}.'.format(count_trees(content)))
 
     settings = [[1,1],[1,3],[1,5],[1,7],[2,1]]

@@ -107,7 +107,7 @@ def count_valid_passports(content):
 
 def main():
     """Solution to both parts of AoC Day 4 problem."""
-    content = get_input('day04.txt')
+    content = get_input('input/day04.txt')
     basic, strict = count_valid_passports(content)
     print('First answer {}, second answer {}.'.format(basic, strict))
 

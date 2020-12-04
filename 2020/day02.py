@@ -44,7 +44,7 @@ def count_valid_passwords_new_policy(content):
 def main():
     """Solution to both parts of AoC Day 2 problem."""
 
-    content = get_input('day02.txt')
+    content = get_input('input/day02.txt')
 
     n1 = count_valid_passwords(content)
     print('Solution to the first part of puzzle is {}'.format(n1))
